@@ -1,0 +1,342 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Bài 1: Thao tác với tệp tin và thư mục - Portfolio Hoàng Chu Mỹ Anh.">
+  <meta name="theme-color" content="#ff5f91">
+  <title>Bài 1 · Thao tác với tệp tin và thư mục | Hoàng Chu Mỹ Anh</title>
+  <link rel="icon" href="assets/brand/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body class="assignment-page assignment-pink">
+<a class="skip-link" href="#main">Bỏ qua điều hướng</a>
+
+<header class="site-header" id="top">
+  <a class="brand" href="index.html" aria-label="Trang chủ Hoàng Chu Mỹ Anh"><img src="assets/brand/logo-my-anh.png" alt="Mỹ Anh Portfolio Network"></a>
+  <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Mở menu"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+  <nav class="nav-links" id="site-nav" aria-label="Điều hướng chính">
+    <a href="index.html#trang-chu">Trang chủ</a>
+    <a href="index.html#gioi-thieu">Giới thiệu</a>
+    <a href="index.html#bai-tap">Bài tập</a>
+    <a href="index.html#lien-he">Liên hệ</a>
+  </nav>
+</header>
+<div class="checker-line" aria-hidden="true"></div>
+
+<main id="main">
+  <section class="assignment-hero section-shell">
+    <div class="assignment-hero-copy reveal">
+      <a class="back-link" href="index.html#bai-tap"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 12H5M10 6l-6 6 6 6"/></svg> Quay lại danh sách</a>
+      <span class="assignment-badge">Bài 1 · Kỹ năng số</span>
+      <h1>Thao tác với tệp tin và thư mục</h1>
+      <p>Thực hành tạo, đổi tên, sao chép, di chuyển, xóa và khôi phục tệp tin, thư mục trên Windows.</p>
+      <div class="assignment-meta"><span>Hoàng Chu Mỹ Anh</span><span>25040391</span><span>K59</span></div>
+    </div>
+    <div class="assignment-channel-card reveal" style="--delay:90ms">
+      <span class="channel-now">NOW SHOWING</span>
+      <strong>01</strong>
+      <small>Thực hành quản lý dữ liệu trên Windows</small>
+      <img src="assets/characters/darwin.png" alt="" aria-hidden="true">
+    </div>
+  </section>
+
+  <div class="article-layout section-shell">
+    <aside class="article-sidebar reveal">
+      <div class="sidebar-box">
+        <span class="sidebar-title">Trong bài này</span>
+        <nav class="toc" data-toc aria-label="Mục lục bài"></nav>
+      </div>
+      <a class="sidebar-email" href="mailto:hwangchuie957@gmail.com">Trao đổi về bài này <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m4 7 8 6 8-6"/></svg></a>
+    </aside>
+    <article class="report-content reveal" data-report>
+      <p><strong>ĐẠI HỌC QUỐC GIA HÀ NỘI<br/>
+TRƯỜNG ĐẠI HỌC NGOẠI NGỮ</strong></p>
+<figure class="report-figure"><img alt="Ý nghĩa Logo ULIS – Trường Đại học Ngoại ngữ – Đại học Quốc gia Hà Nội" decoding="async" loading="lazy" src="assets/docs/bai-1/media/image5.png" style="max-width:100%;height:auto;"/></figure>
+<p><strong><br/>
+BÁO CÁO CÁ NHÂN</strong></p>
+<p><strong>THỰC HÀNH THAO TÁC VỚI TỆP TIN VÀ THƯ MỤC TRÊN
+WINDOWS</strong></p>
+<div class="table-scroll"><table>
+<colgroup>
+<col style="width: 28%"/>
+<col style="width: 71%"/>
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Sinh viên</strong></th>
+<th>Hoàng Chu Mỹ Anh</th>
+</tr>
+<tr class="odd">
+<th><strong>Ngành</strong></th>
+<th>Ngôn ngữ Anh</th>
+</tr>
+<tr class="header">
+<th><strong>Khoa</strong></th>
+<th>Ngôn ngữ và Văn hóa Anh</th>
+</tr>
+<tr class="odd">
+<th><strong>Trường</strong></th>
+<th>Trường Đại học Ngoại ngữ - ĐHQGHN</th>
+</tr>
+<tr class="header">
+<th><strong>Mã sinh viên</strong></th>
+<th>25040391</th>
+</tr>
+<tr class="odd">
+<th><strong>Lớp</strong></th>
+<th>VNU1001_E252058</th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table></div>
+<p><em><br/>
+</em></p>
+<h2 id="thông-tin-chung-và-mục-tiêu-thực-hành">1. Thông tin chung và mục
+tiêu thực hành</h2>
+<p>Bài báo cáo này trình bày quá trình cá nhân thực hiện các thao tác cơ
+bản với tệp tin và thư mục trên hệ điều hành Windows thông qua File
+Explorer. Các thao tác bao gồm: mở File Explorer, truy cập ổ đĩa hoặc
+thư mục làm việc, tạo thư mục mới, tạo tệp văn bản, đổi tên tệp, tạo thư
+mục con, sao chép, di chuyển, xóa tệp, xóa vĩnh viễn và khôi phục tệp từ
+Recycle Bin.</p>
+<p>Mục tiêu của bài thực hành là rèn luyện kỹ năng quản lý dữ liệu cá
+nhân một cách thành thạo, chính xác và có minh chứng rõ ràng. Đây là kỹ
+năng nền tảng cần thiết đối với sinh viên ngành Ngôn ngữ và Văn hóa Anh
+khi làm bài tập, lưu tài liệu học tập, quản lý bản dịch, sắp xếp tư liệu
+nghiên cứu và nộp sản phẩm học thuật.</p>
+<h2 id="môi-trường-thực-hiện-và-quy-tắc-đặt-tên">2. Môi trường thực hiện
+và quy tắc đặt tên</h2>
+<div class="table-scroll"><table>
+<colgroup>
+<col style="width: 50%"/>
+<col style="width: 50%"/>
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Thiết bị thực hiện</strong></th>
+<th>Máy tính cá nhân sử dụng hệ điều hành Windows</th>
+</tr>
+<tr class="odd">
+<th><strong>Công cụ sử dụng</strong></th>
+<th>File Explorer, Recycle Bin, phím tắt Windows + E, Ctrl + C, Ctrl +
+V, Ctrl + X, Shift + Delete</th>
+</tr>
+<tr class="header">
+<th><strong>Vị trí lưu bài</strong></th>
+<th>Ổ D:/E: hoặc thư mục Documents nếu máy chỉ có ổ C:</th>
+</tr>
+<tr class="odd">
+<th><strong>Thư mục chính</strong></th>
+<th>ThucHanh_HoangChuMyAnh</th>
+</tr>
+<tr class="header">
+<th><strong>Tệp thực hành</strong></th>
+<th>GhiChu.txt, GhiChuQuanTrong.txt, DiChuyen.txt</th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table></div>
+<p>Quy tắc đặt tên được áp dụng trong bài là dùng tên rõ nghĩa, không gõ
+sai chính tả, không đặt tên quá dài và không dùng ký tự đặc biệt gây lỗi
+trên Windows. Việc đặt tên thống nhất giúp quá trình tìm kiếm, sao chép,
+di chuyển và khôi phục tệp được dễ kiểm chứng hơn.</p>
+<h2 id="quy-trình-thực-hiện-và-minh-chứng-cần-chèn">3. Quy trình thực
+hiện và minh chứng cần chèn</h2>
+<p>Bảng dưới đây tổng hợp toàn bộ các bước thực hành. Khi hoàn thiện bài
+nộp, sinh viên cần thay các dòng “Ảnh minh chứng” bằng ảnh chụp màn hình
+thật, thể hiện rõ tên thư mục, tên tệp và thao tác đã thực hiện.</p>
+<p><strong>Thực hiện:</strong></p>
+<ol type="1">
+<li><p><strong>Mở File Explorer:</strong> Nhấn tổ hợp phím Windows + E
+hoặc nhấp vào biểu tượng thư mục màu vàng trên thanh tác vụ.</p></li>
+</ol>
+<figure class="report-figure"><img alt="Minh chứng Bài 1" decoding="async" loading="lazy" src="assets/docs/bai-1/media/image3.png" style="max-width:100%;height:auto;"/></figure>
+<ol start="2" type="1">
+<li><p><strong>Truy cập ổ đĩa/thư mục: Ở</strong> cột bên trái, nhấp vào
+This PC, sau đó nhấp đúp vào một ổ đĩa không phải ổ hệ thống (ví dụ: ổ
+D: hoặc E:). Nếu chỉ có ổ C:, hãy vào thư mục Documents.</p></li>
+</ol>
+<figure class="report-figure"><img alt="Minh chứng Bài 1" decoding="async" loading="lazy" src="assets/docs/bai-1/media/image8.png" style="max-width:100%;height:auto;"/></figure>
+<ol start="3" type="1">
+<li><p><strong>Tạo thư mục mới:</strong> Nhấp chuột phải vào một khoảng
+trống -&gt; chọn New -&gt; Folder. Đặt tên thư mục là
+ThucHanh_HoangChuMyAnh (ví dụ: ThucHanh_HoangChuMyAnh). Nhấn
+Enter.</p></li>
+</ol>
+<figure class="report-figure"><img alt="Minh chứng Bài 1" decoding="async" loading="lazy" src="assets/docs/bai-1/media/image2.png" style="max-width:100%;height:auto;"/></figure>
+<ol start="4" type="1">
+<li><p><strong>Vào thư mục vừa tạo:</strong> Nhấp đúp vào thư mục
+ThucHanh_HoangChuMyAnh.</p></li>
+</ol>
+<figure class="report-figure"><img alt="Minh chứng Bài 1" decoding="async" loading="lazy" src="assets/docs/bai-1/media/image9.png" style="max-width:100%;height:auto;"/></figure>
+<ol start="5" type="1">
+<li><p><strong>Tạo tệp tin văn bản</strong>: Nhấp chuột phải vào khoảng
+trống -&gt; New -&gt; Text Document. Đặt tên là GhiChu.txt. Nhấn
+Enter.</p></li>
+</ol>
+<figure class="report-figure"><img alt="Minh chứng Bài 1" decoding="async" loading="lazy" src="assets/docs/bai-1/media/image12.png" style="max-width:100%;height:auto;"/></figure>
+<ol start="6" type="1">
+<li><p><strong>Đổi tên tệp tin:</strong> Nhấp chuột phải vào tệp
+GhiChu.txt -&gt; chọn Rename. Đổi tên thành GhiChuQuanTrong.txt. Nhấn
+Enter.</p></li>
+</ol>
+<figure class="report-figure"><img alt="Minh chứng Bài 1" decoding="async" loading="lazy" src="assets/docs/bai-1/media/image13.png" style="max-width:100%;height:auto;"/></figure>
+<ol start="7" type="1">
+<li><p><strong>Tạo thư mục con:</strong> Trong thư mục
+ThucHanh_HoangChuMyAnh, nhấp chuột phải -&gt; New -&gt; Folder. Đặt tên là
+TaiLieu.</p></li>
+</ol>
+<figure class="report-figure"><img alt="Minh chứng Bài 1" decoding="async" loading="lazy" src="assets/docs/bai-1/media/image7.png" style="max-width:100%;height:auto;"/></figure>
+<ol start="8" type="1">
+<li><p><strong>Sao chép tệp tin (Copy &amp; Paste):</strong> * Nhấp
+chuột phải vào tệp GhiChuQuanTrong.txt -&gt; chọn Copy (hoặc chọn tệp
+rồi nhấn Ctrl + C).</p>
+<ul>
+<li><p>Nhấp đúp vào thư mục TaiLieu, nhấp chuột phải vào khoảng trống
+bên trong -&gt; chọn Paste (hoặc nhấn Ctrl + V). Bây giờ bạn có một bản
+sao của tệp trong thư mục TaiLieu.</p></li>
+</ul></li>
+</ol>
+<figure class="report-figure"><img alt="Minh chứng Bài 1" decoding="async" loading="lazy" src="assets/docs/bai-1/media/image1.png" style="max-width:100%;height:auto;"/></figure>
+<ol start="9" type="1">
+<li><p><strong>Di chuyển tệp tin (Cut &amp; Paste):</strong></p>
+<ul>
+<li><p><strong>Quay lại thư mục ThucHanh_HoangChuMyAnh. Tạo một tệp mới tên
+là DiChuyen.txt.</strong></p></li>
+</ul></li>
+</ol>
+<figure class="report-figure"><img alt="Minh chứng Bài 1" decoding="async" loading="lazy" src="assets/docs/bai-1/media/image16.png" style="max-width:100%;height:auto;"/></figure>
+<ul>
+<li><p><strong>Nhấp chuột phải vào tệp DiChuyen.txt -&gt; chọn Cut (hoặc
+chọn tệp rồi nhấn Ctrl + X).</strong></p></li>
+</ul>
+<figure class="report-figure"><img alt="Minh chứng Bài 1" decoding="async" loading="lazy" src="assets/docs/bai-1/media/image15.png" style="max-width:100%;height:auto;"/></figure>
+<ul>
+<li><p><strong>Nhấp đúp vào thư mục TaiLieu, nhấp chuột phải vào khoảng
+trống -&gt; chọn Paste (hoặc nhấn Ctrl + V). Tệp gốc đã biến mất khỏi vị
+trí cũ và chỉ còn ở vị trí mới.</strong></p></li>
+</ul>
+<figure class="report-figure"><img alt="Minh chứng Bài 1" decoding="async" loading="lazy" src="assets/docs/bai-1/media/image6.png" style="max-width:100%;height:auto;"/></figure>
+<ol start="10" type="1">
+<li><p><strong>Xóa tệp tin:</strong> Trong thư mục TaiLieu, nhấp chuột
+phải vào tệp GhiChuQuanTrong.txt</p></li>
+</ol>
+<p><strong>-&gt;</strong> chọn Delete. Tệp sẽ được chuyển vào Thùng rác
+(Recycle Bin).</p>
+<figure class="report-figure"><img alt="Minh chứng Bài 1" decoding="async" loading="lazy" src="assets/docs/bai-1/media/image11.png" style="max-width:100%;height:auto;"/></figure>
+<ol start="11" type="1">
+<li><p><strong>Xóa vĩnh viễn: Chọn tệp DiChuyen.txt, nhấn giữ phím Shift
+và nhấn phím Delete. Một cảnh báo sẽ hiện ra. Nếu đồng ý, tệp sẽ bị xóa
+vĩnh viễn mà không qua Thùng rác.</strong></p></li>
+</ol>
+<figure class="report-figure"><img alt="Minh chứng Bài 1" decoding="async" loading="lazy" src="assets/docs/bai-1/media/image14.png" style="max-width:100%;height:auto;"/></figure>
+<ol start="12" type="1">
+<li><p><strong>Khôi phục từ Thùng rác (Tùy chọn):</strong> Tìm biểu
+tượng Recycle Bin trên màn hình nền, nhấp đúp để mở. Tìm tệp
+GhiChuQuanTrong.txt đã xóa, nhấp chuột phải vào nó và chọn Restore. Tệp
+sẽ quay trở lại vị trí ban đầu.</p></li>
+</ol>
+<figure class="report-figure"><img alt="Minh chứng Bài 1" decoding="async" loading="lazy" src="assets/docs/bai-1/media/image4.png" style="max-width:100%;height:auto;"/></figure>
+<figure class="report-figure"><img alt="Minh chứng Bài 1" decoding="async" loading="lazy" src="assets/docs/bai-1/media/image10.png" style="max-width:100%;height:auto;"/></figure>
+<h2 id="phân-tích-kết-quả-thực-hành">4. Phân tích kết quả thực hành</h2>
+<p>Sau khi hoàn thành các bước thực hành, tôi nắm được sự khác biệt giữa
+thao tác trên thư mục và thao tác trên tệp tin. Thư mục có vai trò chứa
+và phân loại dữ liệu, còn tệp tin là đơn vị lưu nội dung cụ thể. Việc
+tạo thư mục ThucHanh_HoangChuMyAnh và thư mục con TaiLieu giúp dữ liệu
+được tổ chức theo cấu trúc rõ ràng thay vì để rải rác trong cùng một vị
+trí.</p>
+<p>Đối với thao tác sao chép và di chuyển, điểm khác biệt quan trọng là
+Copy &amp; Paste tạo thêm một bản sao của tệp ở vị trí mới, trong khi
+Cut &amp; Paste chuyển tệp gốc sang vị trí khác. Vì vậy, sau khi sao
+chép GhiChuQuanTrong.txt vào thư mục TaiLieu, tệp vẫn có thể còn ở vị
+trí ban đầu. Ngược lại, sau khi Cut &amp; Paste DiChuyen.txt, tệp gốc
+không còn ở thư mục cũ mà chỉ xuất hiện trong thư mục TaiLieu.</p>
+<p>Đối với thao tác xóa, Delete thông thường đưa tệp vào Recycle Bin,
+nhờ vậy người dùng có thể khôi phục nếu xóa nhầm. Trong khi đó, Shift +
+Delete xóa vĩnh viễn và không chuyển tệp vào Recycle Bin. Vì vậy, thao
+tác xóa vĩnh viễn cần được thực hiện cẩn thận, chỉ dùng khi chắc chắn
+tệp không còn cần thiết.</p>
+<h2 id="khó-khăn-và-cách-khắc-phục">5. Khó khăn và cách khắc phục</h2>
+<div class="table-scroll"><table>
+<colgroup>
+<col style="width: 33%"/>
+<col style="width: 33%"/>
+<col style="width: 33%"/>
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Khó khăn</strong></th>
+<th><strong>Ảnh hưởng</strong></th>
+<th><strong>Cách khắc phục</strong></th>
+</tr>
+<tr class="odd">
+<th>Dễ nhầm giữa Copy và Cut.</th>
+<th>Có thể tưởng đã di chuyển tệp nhưng thực tế chỉ tạo bản sao.</th>
+<th>Quan sát lại vị trí cũ và vị trí mới sau mỗi thao tác để kiểm tra
+kết quả.</th>
+</tr>
+<tr class="header">
+<th>Dễ đặt sai tên tệp/thư mục.</th>
+<th>Minh chứng không khớp yêu cầu hoặc khó kiểm tra.</th>
+<th>Gõ đúng tên theo đề bài: ThucHanh_HoangChuMyAnh,
+GhiChuQuanTrong.txt, TaiLieu.</th>
+</tr>
+<tr class="odd">
+<th>Shift + Delete có thể xóa nhầm vĩnh viễn.</th>
+<th>Không thể khôi phục trực tiếp từ Recycle Bin.</th>
+<th>Chỉ thực hiện với tệp DiChuyen.txt theo yêu cầu và chụp lại cảnh báo
+xác nhận.</th>
+</tr>
+<tr class="header">
+<th>Ảnh chụp màn hình có thể không rõ.</th>
+<th>Người chấm khó đọc tên tệp, thư mục hoặc thao tác.</th>
+<th>Chụp vùng vừa đủ, giữ tên tệp/thư mục rõ nét, đặt chú thích ngay
+dưới ảnh.</th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table></div>
+<h2 id="kết-luận">6. Kết luận</h2>
+<p>Qua bài thực hành này, tôi đã rèn luyện được các thao tác cơ bản
+nhưng quan trọng trong quản lý tệp tin và thư mục trên Windows. Các bước
+tạo thư mục, tạo tệp, đổi tên, sao chép, di chuyển, xóa và khôi phục
+giúp tôi hiểu rõ hơn cách tổ chức dữ liệu cá nhân một cách khoa học.</p>
+<p>Kỹ năng này có ý nghĩa thực tế đối với sinh viên ngành Ngôn ngữ và
+Văn hóa Anh vì trong quá trình học tập thường xuyên phải lưu trữ tài
+liệu đọc, bài dịch, slide thuyết trình, file âm thanh, hình ảnh minh họa
+và các bản nộp khác nhau. Nếu biết quản lý tệp tin tốt, sinh viên có thể
+hạn chế thất lạc dữ liệu, tránh nhầm phiên bản và nộp bài đúng yêu
+cầu.</p>
+<h2 id="tài-liệu-tham-khảo">7. Tài liệu tham khảo</h2>
+<p>[1] Microsoft Support. File Explorer in Windows. Nội dung tham khảo
+về cách mở và sử dụng File Explorer trên Windows.</p>
+<p>[2] Microsoft Support. Keyboard shortcuts in Windows. Nội dung tham
+khảo về các phím tắt Windows, bao gồm Windows + E và các thao tác quản
+lý tệp.</p>
+
+    </article>
+  </div>
+
+  <nav class="assignment-pagination section-shell" aria-label="Chuyển bài">
+    <a href="bai-6.html"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 12H5M10 6l-6 6 6 6"/></svg><span><small>Bài trước</small><strong>Bài 6</strong></span></a>
+    <a href="index.html#bai-tap" class="all-projects"><span>Tất cả bài tập</span></a>
+    <a href="bai-2.html"><span><small>Bài tiếp theo</small><strong>Bài 2</strong></span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M14 6l6 6-6 6"/></svg></a>
+  </nav>
+</main>
+<footer class="site-footer">
+  <div class="footer-checker" aria-hidden="true"></div>
+  <div class="footer-inner"><p>© <span data-year></span> Hoàng Chu Mỹ Anh · K59 · ULIS</p><a href="#top">Lên đầu trang <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M14 6l6 6-6 6"/></svg></a></div>
+</footer>
+<div class="lightbox" data-lightbox hidden role="dialog" aria-modal="true" aria-label="Xem ảnh minh chứng">
+  <button type="button" class="lightbox-close" aria-label="Đóng ảnh"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button>
+  <img alt="Ảnh minh chứng phóng to">
+</div>
+</body>
+</html>
