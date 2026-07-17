@@ -108,3 +108,5 @@ body,button,input,textarea,select{font-family:var(--font-body);font-kerning:norm
 .project-copy h3{line-height:1.24;letter-spacing:-.55px}
 .nav-links a{letter-spacing:-.25px}
 .report-content{font-family:var(--font-body)}
+
+.toc-empty{display:block;font-size:14px;color:#666;font-weight:700}

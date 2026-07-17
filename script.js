@@ -24,11 +24,19 @@
   const report = document.querySelector('[data-report]');
   const toc = document.querySelector('[data-toc]');
   if (report && toc) {
-    const heads = [...report.querySelectorAll('h2')];
+    let heads = [...report.querySelectorAll('h2')];
+    if (!heads.length) heads = [...report.querySelectorAll('h3')];
     heads.forEach((h, idx) => {
-      const id = `muc-${idx+1}`; h.id = id;
-      const a = document.createElement('a'); a.href = `#${id}`; a.textContent = h.textContent.trim(); toc.appendChild(a);
+      const id = h.id || `muc-${idx+1}`;
+      h.id = id;
+      const a = document.createElement('a');
+      a.href = `#${id}`;
+      a.textContent = h.textContent.replace(/\s+/g, ' ').trim();
+      toc.appendChild(a);
     });
+    if (!heads.length) {
+      toc.innerHTML = '<span class="toc-empty">Mục lục đang được cập nhật.</span>';
+    }
   }
 
   const lightbox = document.querySelector('[data-lightbox]');
