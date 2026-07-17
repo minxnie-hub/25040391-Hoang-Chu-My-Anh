@@ -110,3 +110,20 @@ body,button,input,textarea,select{font-family:var(--font-body);font-kerning:norm
 .report-content{font-family:var(--font-body)}
 
 .toc-empty{display:block;font-size:14px;color:#666;font-weight:700}
+
+/* Personal reflection / summary */
+.reflection{padding:0 0 110px;scroll-margin-top:120px}
+.reflection .section-heading{margin-bottom:34px}
+.reflection .section-heading h2{font-family:var(--font-display);font-size:clamp(44px,6vw,76px);letter-spacing:-2px;line-height:1.04;margin:18px 0 18px;font-weight:900}
+.reflection-grid{display:grid;grid-template-columns:1.18fr .82fr;gap:26px;align-items:stretch}
+.reflection-card{position:relative;display:grid;grid-template-columns:92px 1fr;gap:22px;border:var(--border);border-radius:26px;padding:30px;box-shadow:7px 7px 0 var(--ink);overflow:hidden}
+.reflection-card:before{content:"";position:absolute;width:120px;height:120px;border:3px solid #1112;border-radius:50%;right:-42px;top:-50px}
+.reflection-learning{background:var(--pink-soft)}
+.reflection-challenge{background:var(--blue-soft)}
+.reflection-index{display:grid;place-items:center;align-self:start;width:78px;height:78px;background:var(--ink);color:white;border:3px solid white;border-radius:20px;font-family:var(--font-display);font-size:30px;font-weight:900;transform:rotate(-3deg);box-shadow:4px 4px 0 #fff}
+.reflection-label{display:inline-block;background:white;border:2px solid var(--ink);border-radius:10px;padding:6px 12px;font-weight:900;letter-spacing:-.2px;transform:rotate(-.7deg)}
+.reflection-content p{margin:18px 0 0;font-size:15.5px;line-height:1.78;font-weight:600;text-align:justify}
+.reflection-learning .reflection-label{background:var(--yellow-soft)}
+.reflection-challenge .reflection-label{background:var(--mint-soft)}
+@media (max-width:1050px){.reflection-grid{grid-template-columns:1fr}.reflection-card{grid-template-columns:78px 1fr}}
+@media (max-width:760px){.reflection{padding-bottom:80px}.reflection-card{grid-template-columns:1fr;padding:22px}.reflection-index{width:64px;height:64px;font-size:25px}.reflection-content p{text-align:left;font-size:14.5px}.reflection .section-heading h2{font-size:clamp(42px,13vw,62px)}}
